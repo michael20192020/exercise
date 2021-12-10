@@ -17,7 +17,7 @@ class ListViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView!!) {
     var imageView: ImageView? = null
 
     init {
-       
+
         mTitle = itemView!!.findViewById(R.id.item_title)
         mDescription = itemView!!.findViewById<View>(R.id.item_description) as TextView
         imageView = itemView!!.findViewById(R.id.item_imageHref)
